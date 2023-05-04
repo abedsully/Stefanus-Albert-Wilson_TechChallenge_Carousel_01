@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mina';
+    text-decoration: none;
+    color: black;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0rem;
+}
+
+#navbar img{
+    width: 4rem;
+}
+
+#carousel{
+    padding: 1rem 0rem;
+    background-color: #024797;
+}
+
+#carousel .carousel-title h1{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+#carousel .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    top: 15rem;
+}
+
+#carousel .icon i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#carousel i:hover{
+    color: #fcc000;
+}
+
+#carousel .carousel-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#carousel .styling{
+    border-bottom: 1px solid transparent;
+    border-radius: 25px;
+    background-color: #fcc000;
+}
+
+#carousel .card{
+    padding-bottom: .5rem;
+}
+
+#carousel .card img{
+    border-top: 1px solid transparent;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 17rem;
+    background-color: white;
+}
+
+#carousel .card h1,h2{
+    text-align: center;
+}
+
+#carousel .card h1{
+    font-size: 36px;
+    color: black;
+}
+
+#carousel .card h2{
+    font-size: 24px;
+}
+
+#carousel .dot-styling{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+#carousel .dots{
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 3px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+  
+#carousel .enable, .dots:hover {
+    background-color: #fcc000;
+}
+
+footer{
+    padding-top: .5rem;
+    text-align: center;
+}
