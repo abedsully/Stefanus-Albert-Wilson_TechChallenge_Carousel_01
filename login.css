@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mina';
+    text-decoration: none;
+    color: #024797;
+}
+
+body{
+    background-color: #024797;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+#navbar .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar .logo img{
+    width: 4rem;
+}
+
+#navbar .logo h1{
+    color: white;
+}
+
+#navbar .countdown{
+    background-color: #fcc000;
+    padding: 1rem;
+}
+
+#navbar .countdown h4,p{
+    text-align: center;
+}
+
+p{
+    color: red;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+form .form{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 25rem;
+    background-color: #fcc000;
+    padding: 2rem 2rem;
+    gap: 1rem;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+}
+
+#success{
+    display: block;
+}
+
+/* #successful-message{
+    display: none;
+}
+
+#successful-message h4{
+    color: green;
+    text-align: center;
+} */
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    color: white    ;
+}
+
+
+
+

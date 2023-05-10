@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <!-- Title Tab -->
+    <title>Real Madrid CF</title>
+    <!-- Font Mina Link -->
+    <link href='https://fonts.googleapis.com/css?family=Mina' rel='stylesheet'>
+    <!-- Browser Tab Logo -->
+    <link rel="icon" href="/assets/logo.png">  
+    <script src="login.js"></script> 
+</head>
+<body>
+
+    <section id="navbar">
+        <div class="logo">
+            <a href="home.html"><img src="/assets/logo2.png" alt="logo"></a>
+            <h1>Real Madrid CF</h1>
+        </div>
+
+        <div class="countdown">
+            <h4>UEFA Champions League Final</h4>
+            <p id="demo"></p>
+        </div>
+    </section>
+
+
+    <h2>Register to obtain rewards, Madridistas</h2>
+    <form action="" onsubmit="return validation()">
+
+        <div class="form">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your name" id="names">
+            <p id="validate1"></p>
+
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter your email" id="emails">
+            <p id="validate2"></p>
+
+            <label for="gender">Gender</label>
+
+            <div class="gender" id="gender-field">
+                <input type="radio" value="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" value="female" name="gender">
+                <label for="female">Female</label>
+            </div>
+            <p id="validate3"></p>
+
+            <button type="submit">Submit</button>
+
+            <p id="success" style="color: green; text-align:center;"></p>
+        </div>
+    </form>
+
+    
+<!-- Footer -->
+<footer>
+    ©2023 Real Madrid CF, The Greatest Football Club of All Time
+</footer>
+
+    
+</body>
+</html>
